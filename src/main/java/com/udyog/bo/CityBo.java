@@ -6,6 +6,7 @@ public class CityBo implements Serializable {
 	private static final long serialVersionUID = 1082365144977874196L;
 	
 	protected int cityNo;
+	
 	protected String cityName;
 
 	public CityBo(int cityNo) {
