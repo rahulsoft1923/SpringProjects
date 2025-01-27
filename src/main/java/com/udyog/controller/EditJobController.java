@@ -22,6 +22,8 @@ import com.udyog.form.JobForm;
 import com.udyog.service.ManageJobService;
 import com.udyog.validator.JobFormValidator;
 
+
+
 @Controller
 @RequestMapping("/edit-job.htm")
 public class EditJobController {
