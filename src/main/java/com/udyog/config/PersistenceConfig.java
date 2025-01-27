@@ -18,6 +18,8 @@ import org.springframework.transaction.PlatformTransactionManager;
 @ComponentScan(basePackages = { "com.udyog.dao" })
 @PropertySource("classpath:db.properties")
 public class PersistenceConfig {
+	
+	
 	@Autowired
 	private Environment env;
 
